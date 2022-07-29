@@ -52,17 +52,26 @@ button {
 
 /* -------------------------- Header -------------------------------*/
 .header {
+  /* padding: 20px 0; */
+  border: 1px solid tomato;
+}
+.header .container {
+  display: flex;
 }
 .header-logo {
+  margin-right: auto;
 }
 .header-nav {
 }
 .header-list {
+  display: flex;
 }
 .header-item {
 }
 .header-link {
+  display: block;
   color: var(--accent-color);
+  padding: 30px 0;
 }
 
 .header-link:hover,
