@@ -49,3 +49,23 @@ button {
   text-decoration: none;
   /* color: inherit; */
 }
+
+/* -------------------------- Header -------------------------------*/
+.header {
+}
+.header-logo {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  color: var(--accent-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: orange;
+}
